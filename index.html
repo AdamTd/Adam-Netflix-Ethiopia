@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adam | Netflix Ethiopia</title>
+  </head>
+  <body>
+    <header class="head">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="nav-content container-fluid">
+          <a class="navbar-brand" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="180"
+              viewBox="-153.6 -69.1855 1331.2 415.113"
+            >
+              <path
+                fill="#d81f26"
+                d="M140.803 258.904c-15.404 2.705-31.079 3.516-47.294 5.676L44.051 119.724v151.073C28.647 272.418 14.594 274.58 0 276.742V0h41.08l56.212 157.021V0h43.511zm85.131-157.558c16.757 0 42.431-.811 57.835-.811v43.24c-19.189 0-41.619 0-57.835.811v64.322c25.405-1.621 50.809-3.785 76.482-4.596v41.617l-119.724 9.461V0h119.724v43.241h-76.482zm237.284-58.104h-44.862V242.15c-14.594 0-29.188 0-43.239.539V43.242h-44.862V0H463.22zm70.266 55.132h59.187v43.24h-59.187v98.104h-42.433V0h120.808v43.241h-78.375zm148.641 103.507c24.594.539 49.456 2.434 73.51 3.783v42.701c-38.646-2.434-77.293-4.863-116.75-5.676V0h43.24zm109.994 49.457c13.783.812 28.377 1.623 42.43 3.242V0h-42.43zM1024 0l-54.863 131.615L1024 276.742c-16.217-2.162-32.432-5.135-48.648-7.838l-31.078-79.994-31.617 73.51c-15.678-2.705-30.812-3.516-46.484-5.678l55.672-126.75L871.576 0h46.482l28.377 72.699L976.705 0z"
+              />
+            </svg>
+          </a>
+          <div>
+            <button class="sign-in btn">Sign in</button>
+          </div>
+        </div>
+      </nav>
+      <section class="section1">
+        <div
+          class="container d-flex flex-column gap-2 align-items-center justify-content-center"
+        >
+          <h1 class="text-center">Unlimited movies, TV shows, and more</h1>
+          <h3 class=" text-center">Starts at USD 2.99. Cancel anytime.</h2>
+          <p class="lead fw-bold text-center">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="row g-4 d-flex justify-content-center">
+            <div class="col-auto">
+              <div class="form-group floating-label-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  placeholder=" "
+                  required
+                />
+                <label for="email" class="floating-label">Email address</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button class="input-btn btn">
+                Get Started <i class="fa-solid fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <hr />
+    <main>
+      <div class="section2">
+        <div
+          class="row d-md-flex justify-content-around align-items-center gap-1"
+        >
+          <div class="col-md-6 text-center">
+            <h1>Enjoy on your TV</h1>
+            <p class="lead">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+          </div>
+          <div class="col-md-6" id="tv_container">
+            <video id="background_video" autoplay muted>
+              <source
+                src="images/Netflix Ethiopia - Watch TV Shows Online, Watch Movies Online.m4v"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="section3">
+        <div class="row d-flex align-items-center justify-content-around">
+          <div class="col-nd-6 text-center">
+            <h1>Download your shows to watch offline</h1>
+            <p class="lead">
+              Save your favorites easily and always have something to watch.
+            </p>
+          </div>
+          <div class="download-div col-6">
+            <img
+              class="netimg img-fluid"
+              src="images/download.jpg"
+              alt="download"
+            />
+            <div class="download-div2">
+              <img class="film img-fluid" src="images/boxshot.png" alt="film" />
+              <div class="text-container">
+                <h4>Stranger Things</h4>
+                <p>Downloading...<i class="fa-solid fa-download"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="section4">
+        <div class="col-12 d-flex flex-column align-items-center">
+          <h1>Watch everywhere</h1>
+          <p>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="section5">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-md-6">
+            <img class="img-fluid" src="images/kid.png" alt="for kids" />
+          </div>
+          <div class="col-md-6 text-center">
+            <h1>Create profiles for kids</h1>
+            <p>
+              Send kids on adventures with their favorite characters in a space
+              made just for them—free with your membership.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </main>
+    <footer>
+      <div class="section6">
+        <div class="container">
+          <h1><a>Questions? ContactUs?</a></h1>
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col"><a href="#">FAQ</a></div>
+                <div class="col"><a href="#">Help Center</a></div>
+                <div class="col"><a href="#">Account</a></div>
+                <div class="col"><a href="#">Media Center</a></div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col"><a href="#">Investor Relations</a></div>
+                <div class="col"><a href="#">Jobs</a></div>
+                <div class="col"><a href="#">Ways to Watch</a></div>
+                <div class="col"><a href="#">Terms of Use</a></div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col"><a href="#">Privacy</a></div>
+                <div class="col"><a href="#">Cookie Preferences</a></div>
+                <div class="col"><a href="#">Corporate Information</a></div>
+                <div class="col"><a href="#">Contact Us</a></div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col"><a href="#">Speed Test</a></div>
+                <div class="col"><a href="#">Legal Notices</a></div>
+                <div class="col"><a href="#">Only on Netflix</a></div>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger">English</button>
+              <button
+                type="button"
+                class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+        </div>
+        </div>
+        <h1 class="footer-text">
+          © 2024 Netflix Ethiopia. All rights reserved. Adam
+        </h1>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
